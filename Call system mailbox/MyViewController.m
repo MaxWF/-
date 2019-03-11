@@ -50,11 +50,11 @@
 	// 设置邮件主题
 	[mailVC setSubject:@"邮件主题"];
 	// 设置收件人
-	[mailVC setToRecipients:@[@"349560277@qq.com"]];
+	[mailVC setToRecipients:@[@"123456@qq.com"]];
 	// 设置抄送人
-	[mailVC setCcRecipients:@[@"349560277@qq.com"]];
+	[mailVC setCcRecipients:@[@"123456@qq.com"]];
 	// 设置密抄送
-	[mailVC setBccRecipients:@[@"349560277@qq.com"]];
+	[mailVC setBccRecipients:@[@"123456@qq.com"]];
 	// 设置邮件的正文内容
 	NSString *emailContent = @"邮件内容";
 	// 是否为HTML格式
